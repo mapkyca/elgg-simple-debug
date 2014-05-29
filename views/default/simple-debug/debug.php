@@ -24,4 +24,9 @@ SERVER
 
 <?= print_r($_SERVER, true); ?>
 
+MISC
+====
+
+Page context: <?= elgg_get_context(); ?>
+
 -->
